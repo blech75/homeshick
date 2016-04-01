@@ -108,6 +108,9 @@ while [[ $# -gt 0 ]]; do
 			-v | --verbose)
 				VERBOSE=true
 				shift; continue ;;
+			-l | --local-only)
+				LOCAL_ONLY=true;
+				shift; continue;;
 			*)     err "$EX_USAGE" "Unknown subcommand option '$1'" ;;
 		esac
 	fi

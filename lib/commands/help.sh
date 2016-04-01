@@ -29,11 +29,12 @@ printf "homes\e[1;34mh\e[0mick uses git in concert with symlinks to track your p
   updates # Alias to check
 
  Runtime options:
-   -q, [--quiet]    # Suppress status output
-   -s, [--skip]     # Skip files that already exist
-   -f, [--force]    # Overwrite files that already exist
-   -b, [--batch]    # Batch-mode: Skip interactive prompts / Choose the default
-   -v, [--verbose]  # Verbose-mode: Detailed status output
+   -q, [--quiet]      # Suppress status output
+   -s, [--skip]       # Skip files that already exist
+   -f, [--force]      # Overwrite files that already exist
+   -b, [--batch]      # Batch-mode: Skip interactive prompts / Choose the default
+   -l, [--local-only] # Skip checking Git remotes
+   -v, [--verbose]    # Verbose-mode: Detailed status output
 
  Note:
   To check, refresh, pull or symlink all your castles
